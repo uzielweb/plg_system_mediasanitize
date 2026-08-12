@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+    <name>PLG_SYSTEM_MEDIASANITIZE</name>
+    <author>Ponto Mega</author>
+    <creationDate>2026-08-12</creationDate>
+    <copyright>(C) 2026 Ponto Mega. Todos os direitos reservados.</copyright>
+    <license>GNU General Public License v2 ou posterior</license>
+    <authorEmail>contato@pontomega.com.br</authorEmail>
+    <authorUrl>https://www.pontomega.com.br</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_SYSTEM_MEDIASANITIZE_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="mediasanitize">mediasanitize.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="case_format"
+                    type="list"
+                    label="PLG_SYSTEM_MEDIASANITIZE_CASE_FORMAT_LABEL"
+                    description="PLG_SYSTEM_MEDIASANITIZE_CASE_FORMAT_DESC"
+                    default="lowercase"
+                >
+                    <option value="lowercase">PLG_SYSTEM_MEDIASANITIZE_CASE_FORMAT_LOWERCASE</option>
+                    <option value="uppercase">PLG_SYSTEM_MEDIASANITIZE_CASE_FORMAT_UPPERCASE</option>
+                    <option value="original">PLG_SYSTEM_MEDIASANITIZE_CASE_FORMAT_ORIGINAL</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+    <languages>
+        <language tag="en-GB">language/en-GB/plg_system_mediasanitize.ini</language>
+        <language tag="en-GB">language/en-GB/plg_system_mediasanitize.sys.ini</language>
+        <language tag="pt-BR">language/pt-BR/plg_system_mediasanitize.ini</language>
+        <language tag="pt-BR">language/pt-BR/plg_system_mediasanitize.sys.ini</language>
+    </languages>
+</extension>
