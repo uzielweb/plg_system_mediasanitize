@@ -1,6 +1,6 @@
 # Joomla Plugin: System - Media Sanitize (plg_system_mediasanitize)
 
-A lightweight and efficient Joomla 4/5 system plugin that automatically sanitizes filenames upon upload. It intercepts both standard uploads and the new Vue.js-based Media Manager API in Joomla 4/5, ensuring all file names are clean, web-safe, and free of special characters before they are saved to the server.
+A lightweight and efficient Joomla 4/5/6 system plugin that automatically sanitizes filenames upon upload. It intercepts both standard uploads and the new Vue.js-based Media Manager API in Joomla 4/5, ensuring all file names are clean, web-safe, and free of special characters before they are saved to the server.
 
 ## Features
 
@@ -26,7 +26,7 @@ In the plugin settings, you can configure the **Letter Case Format**:
 - **Keep Original**: Maintains the original letter casing, only removing accents and special characters (e.g., `Ação de Marketing.png` -> `Acao_de_Marketing.png`).
 
 ## Requirements
-- Joomla 4.x or 5.x
+- Joomla 4.x, 5.x or 6.x
 - PHP 7.4 or newer
 
 ## License
