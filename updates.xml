@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>Media Sanitize - Joomla System Plugin</name>
+        <description>Media Sanitize Plugin for Joomla</description>
+        <element>mediasanitize</element>
+        <type>plugin</type>
+        <folder>system</folder>
+        <version>1.0.0</version>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/uzielweb/plg_system_mediasanitize/releases/download/v1.0.0/plg_system_mediasanitize_v1.0.0.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>Uziel via Ponto Mega</maintainer>
+        <maintainerurl>https://pontomega.com.br</maintainerurl>
+        <targetplatform name="joomla" version=".*" />
+    </update>
+</updates>
