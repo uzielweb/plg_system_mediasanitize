@@ -8,7 +8,7 @@ A lightweight and efficient Joomla 4/5/6 system plugin that automatically saniti
 - **Space and Special Character Removal**: Replaces spaces and unsupported characters with underscores (`_`).
 - **Prevents Multiple Underscores**: Automatically cleans up multiple consecutive underscores (e.g., `___`) into a single one (`_`).
 - **Customizable Case Formatting**: Allows you to choose whether to convert filenames to all lowercase, all uppercase, or keep the original casing.
-- **Joomla 4/5 Media Manager Support**: Intercepts the `onContentBeforeSave` event with the `com_media.file` context, which means it fully supports the new Vue.js Media Manager API introduced in Joomla 4.
+- **Joomla 4/5/6 Media Manager Support**: Intercepts the `onContentBeforeSave` event with the `com_media.file` context, which means it fully supports the new Vue.js Media Manager API introduced in Joomla 4.
 - **Global Upload Support**: Also intercepts `onAfterInitialise` to catch legacy `$_FILES` uploads from third-party components early in the lifecycle.
 
 ## Installation
