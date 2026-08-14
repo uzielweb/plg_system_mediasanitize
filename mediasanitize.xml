@@ -7,7 +7,7 @@
     <license>GNU General Public License v2 ou posterior</license>
     <authorEmail>contato@pontomega.com.br</authorEmail>
     <authorUrl>https://www.pontomega.com.br</authorUrl>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <description>PLG_SYSTEM_MEDIASANITIZE_XML_DESCRIPTION</description>
     <files>
         <filename plugin="mediasanitize">mediasanitize.php</filename>
@@ -36,4 +36,5 @@
         <language tag="pt-BR">language/pt-BR/plg_system_mediasanitize.sys.ini</language>
     </languages>
 </extension>
+
 
